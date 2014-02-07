@@ -22,6 +22,9 @@
      <property name="enabled">
       <bool>true</bool>
      </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(220, 220, 220);</string>
+     </property>
     </widget>
    </item>
    <item row="6" column="3">
@@ -48,6 +51,9 @@
     <widget class="QLineEdit" name="usernameLine">
      <property name="enabled">
       <bool>true</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(220, 220, 220);</string>
      </property>
      <property name="text">
       <string/>
@@ -108,6 +114,9 @@
    </item>
    <item row="13" column="1" colspan="4">
     <widget class="QListWidget" name="list">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(220, 220, 220);</string>
+     </property>
      <property name="autoScrollMargin">
       <number>100000</number>
      </property>
@@ -181,6 +190,9 @@
      <property name="enabled">
       <bool>true</bool>
      </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(220, 220, 220);</string>
+     </property>
      <property name="minimum">
       <number>1</number>
      </property>
@@ -194,6 +206,9 @@
    </item>
    <item row="4" column="1">
     <widget class="QComboBox" name="typeBox">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(220, 220, 220);</string>
+     </property>
      <property name="editable">
       <bool>false</bool>
      </property>
@@ -217,6 +232,9 @@
      <property name="enabled">
       <bool>true</bool>
      </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(220, 220, 220);</string>
+     </property>
      <property name="minimum">
       <number>1</number>
      </property>
@@ -230,6 +248,9 @@
      <property name="enabled">
       <bool>true</bool>
      </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(220, 220, 220);</string>
+     </property>
      <property name="text">
       <string>9332</string>
      </property>
@@ -242,6 +263,9 @@
     <widget class="QLineEdit" name="passwordLine">
      <property name="enabled">
       <bool>true</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(220, 220, 220);</string>
      </property>
     </widget>
    </item>

@@ -23,7 +23,7 @@
       <enum>QTabWidget::North</enum>
      </property>
      <property name="currentIndex">
-      <number>1</number>
+      <number>0</number>
      </property>
      <widget class="QWidget" name="tabMain">
       <attribute name="title">
@@ -59,7 +59,11 @@
           </widget>
          </item>
          <item>
-          <widget class="BitcoinAmountField" name="transactionFee"/>
+          <widget class="BitcoinAmountField" name="transactionFee">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(220, 220, 220);</string>
+           </property>
+          </widget>
          </item>
          <item>
           <spacer name="horizontalSpacer_Main">
@@ -162,6 +166,9 @@
            <property name="toolTip">
             <string>IP address of the proxy (e.g. 127.0.0.1)</string>
            </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(220, 220, 220);</string>
+           </property>
           </widget>
          </item>
          <item>
@@ -188,6 +195,9 @@
            <property name="toolTip">
             <string>Port of the proxy (e.g. 9050)</string>
            </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(220, 220, 220);</string>
+           </property>
           </widget>
          </item>
          <item>
@@ -207,6 +217,9 @@
           <widget class="QValueComboBox" name="socksVersion">
            <property name="toolTip">
             <string>SOCKS version of the proxy (e.g. 5)</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(220, 220, 220);</string>
            </property>
           </widget>
          </item>
@@ -305,6 +318,9 @@
            <property name="toolTip">
             <string>The user interface language can be set here. This setting will take effect after restarting ZedCoin.</string>
            </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(220, 220, 220);</string>
+           </property>
           </widget>
          </item>
         </layout>
@@ -328,6 +344,9 @@
           <widget class="QValueComboBox" name="unit">
            <property name="toolTip">
             <string>Choose the default subdivision unit to show in the interface and when sending coins.</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(220, 220, 220);</string>
            </property>
           </widget>
          </item>

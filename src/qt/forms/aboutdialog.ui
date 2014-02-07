@@ -14,7 +14,7 @@
    <string>About ZedCoin</string>
   </property>
   <layout class="QHBoxLayout" name="horizontalLayout_2">
-   <item>
+   <item alignment="Qt::AlignTop">
     <widget class="QLabel" name="label_4">
      <property name="sizePolicy">
       <sizepolicy hsizetype="Preferred" vsizetype="Ignored">
@@ -63,7 +63,7 @@
           <cursorShape>IBeamCursor</cursorShape>
          </property>
          <property name="text">
-          <string notr="true">0.3.666-beta</string>
+          <string notr="true">2.10</string>
          </property>
          <property name="textFormat">
           <enum>Qt::RichText</enum>
