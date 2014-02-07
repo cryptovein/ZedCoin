@@ -1,4 +1,4 @@
-﻿ZedCoin(ZED) ver 2.0 – A new generation of cyptocurrency that is a descendant of Litecoin. Like its predecessor, it uses the scrypt algorithm as a proof of work scheme.
+﻿ZedCoin(ZED) ver 2.1 – A new generation of cyptocurrency that is a descendant of Litecoin. Like its predecessor, it uses the scrypt algorithm as a proof of work scheme.
 
 - Scrypt Algorithm
 - 1 minute blocks
