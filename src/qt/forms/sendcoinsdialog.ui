@@ -21,6 +21,9 @@
      </property>
      <item>
       <widget class="QLabel" name="labelTxComment">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
        <property name="text">
         <string>Transaction &amp;comment: </string>
        </property>
@@ -39,6 +42,9 @@
        </property>
        <property name="toolTip">
         <string>Enter a transaction comment (Note: this information is public)</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
        </property>
       </widget>
      </item>
