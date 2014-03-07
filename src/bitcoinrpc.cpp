@@ -2870,7 +2870,7 @@ static void RPCAcceptHandler(boost::shared_ptr< basic_socket_acceptor<Protocol, 
         // Only send a 403 if we're not using SSL to prevent a DoS during the SSL handshake.
         //if (!fUseSSL)
         //    conn->stream() << HTTPReply(403, "", false) << std::flush;
-       // delete conn;
+        delete conn;
     }
 
     // start HTTP client thread
