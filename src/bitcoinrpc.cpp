@@ -188,7 +188,7 @@ void WalletTxToJSON(const CWalletTx& wtx, Object& entry)
     }
     entry.push_back(Pair("txid", wtx.GetHash().GetHex()));
     entry.push_back(Pair("time", (boost::int64_t)wtx.GetTxTime()));
-	entry.push_back(Pair("tx-comment", wtx.strTxComment));
+	//entry.push_back(Pair("tx-comment", wtx.strTxComment)); //Removed for p2pool mining
     BOOST_FOREACH(const PAIRTYPE(string,string)& item, wtx.mapValue)
         entry.push_back(Pair(item.first, item.second));
 }
